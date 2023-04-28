@@ -4,10 +4,12 @@ To clone the repository:
 https://github.com/kimanikevin254/airplane-react-pagination-starter-code.git
 ```
 
+`cd` into the project folder.
+
 To install dependencies:
 
 ```bash
-npm i
+npm install
 ```
 
 To run the development server:
