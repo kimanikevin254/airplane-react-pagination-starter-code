@@ -1,21 +1,21 @@
-To clone the repository:
+1. To clone the repository:
 
-```bash
-https://github.com/kimanikevin254/airplane-react-pagination-starter-code.git
-```
+    ```bash
+    https://github.com/kimanikevin254/airplane-react-pagination-starter-code.git
+    ```
 
-`cd` into the project folder.
+2. `cd` into the project folder.
 
-To install dependencies:
+3. To install dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
-To run the development server:
+4. To run the development server:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
-Open your browser on `http://localhost:5173`
+5. Open your browser on `http://localhost:5173`
