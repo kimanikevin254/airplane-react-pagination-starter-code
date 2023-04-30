@@ -4,6 +4,10 @@ import ProductRow from "./components/ProductRow"
 
 export default function App(){
   const [products, setProducts] = useState([])
+  
+  // new states will go here 
+
+  // calculateProductsToDisplay function will go here
 
   const fetchProducts = () => {
     fetch('https://dummyjson.com/products?limit=100')
@@ -18,7 +22,14 @@ export default function App(){
   },[])
   return (
     <Layout>
-      <h1 className="text-3xl font-bold mb-8">Products</h1>
+      <div className='mb-8 flex items-center gap-12'>
+        <h1 className="text-3xl font-bold">Products</h1>
+
+        {/* "products per page" dropdown will go here */}
+
+        {/* next and previous buttons will go here */}
+      </div>
+      
       <div className="flex flex-wrap gap-6 mb-32">
         <table className="">
           <thead>
@@ -44,6 +55,9 @@ export default function App(){
             }
           </tbody>
         </table>
+
+        {/* page numbers will go here */}
+
       </div>
     </Layout>
   )
