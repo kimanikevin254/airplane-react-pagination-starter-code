@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+table {
+    @apply w-full shadow
+}
+
+table thead tr td{
+    @apply font-bold text-left px-4 py-2 bg-gray-200 w-fit border border-gray-300 whitespace-nowrap
+}
+
+table tbody tr td {
+    @apply border p-1 border-gray-300 w-fit whitespace-nowrap
+  }

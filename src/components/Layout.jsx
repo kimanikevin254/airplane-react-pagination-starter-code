@@ -7,7 +7,7 @@ export default function Layout({children}){
             <Sidebar />
             <div className='flex-1 h-screen overflow-hidden'>
                 <Topnav />
-                <div className='p-4 h-full overflow-y-scroll'>
+                <div className='p-4 h-full overflow-y-scroll overflow-x-hidden'>
                     {children}
                 </div>
             </div>
